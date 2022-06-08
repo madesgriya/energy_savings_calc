@@ -1,0 +1,47 @@
+{
+    "EUI": {
+        "office": {
+            "large": {
+                "topQuartile": 124,
+                "2ndQuartile": 163,
+                "3rdQuartile": 211
+            },
+            "medium": {
+                "topQuartile": 110,
+                "2ndQuartile": 242,
+                "3rdQuartile": 255
+            }
+        },
+        "hotels": {
+            "all": {
+                "topQuartile": 187,
+                "2ndQuartile": 219,
+                "3rdQuartile": 270
+            }
+        },
+        "shop": {
+            "large": {
+                "topQuartile": 190,
+                "2ndQuartile": 390,
+                "3rdQuartile": 460
+            },
+            "medium": {
+                "topQuartile": 216,
+                "2ndQuartile": 294,
+                "3rdQuartile": 434
+            }
+        },
+        "school": {
+            "average": 188
+        },
+        "hospital": {
+            "average": 365
+        },
+        "library": {
+            "average": 109
+        },
+        "auditorium": {
+            "average": 109
+        }
+    }
+}

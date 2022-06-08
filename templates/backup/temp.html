@@ -1,0 +1,154 @@
+<form action="/energy/" method="post">
+	<!-- NAME
+	<div class="form-group">
+		<label for="inputName">Full Name</label>
+		<input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Enter your full name" name="name">
+	</div> -->
+
+	<!-- EMAIL
+	<div class="form-group">
+		<label for="exampleInputEmail">Email address</label>
+		<input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+		<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+	</div> -->
+	
+	<!-- COMPANY
+	<div class="form-group">
+		<label for="inputCompany">Company</label>
+		<input type="text" class="form-control" id="inputCompany" aria-describedby="companyHelp" placeholder="Enter company name" name="company">
+	</div> -->
+
+	<!-- FACILITY -->
+	<div class="form-group">
+		<label for="inputFacility">Choose your type of facility</label>
+	
+
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="facility" id="exampleRadios1" value="a" name="facility">
+			<label class="form-check-label" for="exampleRadios1">
+				Apartment
+			</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="facility" id="exampleRadios2" value="b" name="facility">
+			<label class="form-check-label" for="exampleRadios2">
+				Auditorium
+			</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="facility" id="exampleRadios2" value="c" name="facility">
+			<label class="form-check-label" for="exampleRadios2">
+				School
+			</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="facility" id="exampleRadios2" value="d" name="facility">
+			<label class="form-check-label" for="exampleRadios2">
+				Industrial Factory
+			</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="facility" id="exampleRadios2" value="e" name="facility">
+			<label class="form-check-label" for="exampleRadios2">
+				Hospital
+			</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="facility" id="exampleRadios2" value="f" name="facility">
+			<label class="form-check-label" for="exampleRadios2">
+				Hotel
+			</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="facility" id="exampleRadios2" value="g" name="facility">
+			<label class="form-check-label" for="exampleRadios2">
+				Library
+			</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="facility" id="exampleRadios2" value="h" name="facility">
+			<label class="form-check-label" for="exampleRadios2">
+				Residential
+			</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="facility" id="exampleRadios2" value="i" name="facility">
+			<label class="form-check-label" for="exampleRadios2">
+				Data Center
+			</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="facility" id="exampleRadios2" value="j" name="facility">
+			<label class="form-check-label" for="exampleRadios2">
+				Shop
+			</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="facility" id="exampleRadios2" value="k" name="facility">
+			<label class="form-check-label" for="exampleRadios2">
+				Outside Air (Lab, Hospital)
+			</label>
+		</div>
+	</div>
+
+	<!-- Building Size -->
+	<div class="form-group">
+		<label for="inputBuilding">Building Size</label>
+		<input type="number" class="form-control" id="inputBuilding" aria-describedby="buildingHelp" placeholder="Enter value" name="buildingSize">
+		<small id="buuildingHelp" class="form-text text-muted">Enter the area of the building in square meters (e.g. 1000)</small>
+	</div>
+
+	<!-- SYSTEM -->
+	<div class="form-group1">
+		<label for="inputSystem">Choose your type of air conditioning system</label>
+	
+		<div class="form-1">
+			<input class="form-1-input" type="radio" name="system" id="exampleRadios1" value="a" name="system">
+			<label class="form-1-label" for="exampleRadios1">
+				Water-cooled chiller plant
+			</label>
+		</div>
+		<div class="form-1">
+			<input class="form-1-input" type="radio" name="system" id="exampleRadios2" value="b" name="system">
+			<label class="form--label" for="exampleRadios2">
+				Air-cooled chiller plant
+			</label>
+		</div>
+		<div class="form-1">
+			<input class="form-1-input" type="radio" name="system" id="exampleRadios3" value="c" name="system">
+			<label class="form-1-label" for="exampleRadios2">
+				Variable Refrigerant Volume (VRV)
+			</label>
+		</div>
+		<div class="form-1">
+			<input class="form-1-input" type="radio" name="system" id="exampleRadios4" value="d" name="system">
+			<label class="form-1-label" for="exampleRadios2">
+				Split Unit (Residential AC Split)
+			</label>
+		</div>	
+
+	</div>
+
+	<div class="form-group">
+		<label for="inputCurSP">Current Temperature Setpoint</label>
+		<input type="number" class="form-control" id="inputCurSP" aria-describedby="curSPHelp" placeholder="Enter value" name="curSP">
+		<small id="curSPHelp" class="form-text text-muted">Enter the current set point in degree Celsius (e.g. 24)</small>
+	</div>
+
+	<div class="form-group">
+		<label for="inputHumidity">Space Humidity</label>
+		<input type="number" class="form-control" id="inputHumidity" aria-describedby="humidityHelp" placeholder="Enter value" name="humidity">
+		<small id="humidityHelp" class="form-text text-muted">Most conditioned space has a relative humidity of 50%. Enter the estimated relative humidity of the space in % (e.g. 50).</small>
+	</div>
+
+	<div class="form-group">
+		<label for="inputDesiredSP">Desired Space Temperature Setpoint *</label>
+		<input type="number" class="form-control" id="inputDesiredSP" aria-describedby="desiredSPHelp" placeholder="Enter value" name="desiredSP">
+		<small id="desiredSPHelp" class="form-text text-muted">Enter the current set point in degree Celsius (e.g. 24)</small>
+	</div>
+	
+	<div>
+		<input type="submit" value="See result"/>
+	</div>
+		
+</form>
